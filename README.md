@@ -1,89 +1,113 @@
 <div align="center">
 
-# ✦ Hotel Management System ✦
+# 🏨 Hotel Management System
 
-### <i>A modern Java-powered solution for managing hotel rooms, guests, bookings, and operations efficiently.</i>
+### <i>Smart hotel operations, streamlined with Java and MySQL</i>
 
 <br>
 
-<img src="https://img.shields.io/badge/Java-Backend-orange?style=flat-square&logo=openjdk" />
-<img src="https://img.shields.io/badge/MySQL-Database-blue?style=flat-square&logo=mysql" />
-<img src="https://img.shields.io/badge/Project-Hotel%20Management-success?style=flat-square" />
-<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" />
-<img src="https://img.shields.io/badge/Made%20By-Arman%20Seth-black?style=flat-square" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Project-Hotel%20Management-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Type-Database%20Driven-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 
 </div>
 
 ---
 
-## ◆ About The Project
+## 🌟 Introduction
 
-This **Hotel Management System** is a database-driven Java application developed to simplify and organize hotel operations in a smarter way.  
-It helps manage hotel rooms, customer records, bookings, and related database tasks with better accuracy and less manual effort.
+The **Hotel Management System** is a Java-based database project developed to manage hotel records in an organized and efficient way.  
+It helps handle rooms, guests, bookings, payments, and other hotel operations with the support of **MySQL database integration**.
 
-Designed as a practical academic project, this system reflects how real-world management software can be built using **Java + MySQL**.
-
----
-
-## ◆ Why This Project Stands Out
-
-✦ Clean object-oriented Java structure  
-✦ Database-integrated hotel record system  
-✦ Useful real-world project concept  
-✦ Great for academic submissions and portfolio showcase  
-✦ Easy to understand, extend, and improve  
+This project is designed to reduce manual work, improve record handling, and demonstrate how a real-world management system can be built using Java and database concepts.
 
 ---
 
-## ◆ Core Functionalities
+## 🎯 Main Goals
 
-<table>
-<tr>
-<td width="50%">
-
-### 🛏 Room Handling
-- Add and manage hotel rooms
-- Maintain room records
-- Track room-related information
-
-</td>
-<td width="50%">
-
-### 👤 Guest Management
-- Store guest details
-- Organize customer information
-- Maintain hotel visitor records
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 📘 Booking Operations
-- Manage room reservations
-- Connect guests with rooms
-- Handle booking records efficiently
-
-</td>
-<td width="50%">
-
-### 🗄 Database Management
-- Store all important hotel data
-- Perform insert, update, retrieve operations
-- Keep records organized in MySQL
-
-</td>
-</tr>
-</table>
+- Automate hotel-related record management
+- Maintain room and guest information efficiently
+- Manage bookings in a structured way
+- Store and retrieve hotel data using MySQL
+- Build a practical academic project with real-world relevance
 
 ---
 
-## ◆ Tech Environment
+## ✨ Key Features
+
+- 🛏 Room management
+- 👤 Guest/customer record handling
+- 📘 Booking management
+- 💳 Payment handling
+- 🔐 Admin support
+- 🗄 Database integration using MySQL
+- ⚡ Easy execution through scripts and Java files
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| Java | Core application development |
+| MySQL | Database storage |
+| JDBC / MySQL Connector | Database connectivity |
+| Ant / Standard Java Project | Build support |
+| Batch & Shell Scripts | Easy execution |
+
+---
+
+## 📂 Detailed Project Structure
 
 ```text
-Language     : Java
-Database     : MySQL
-Connector    : MySQL Connector/J
-Build Tool   : Ant / Standard Java Project
-Execution    : Java Runtime
+hotel/
+│
+├── src/
+│   │
+│   ├── Booking.java
+│   ├── Guest.java
+│   ├── Room.java
+│   ├── Admin.java
+│   ├── Payment.java
+│   ├── HotelDatabaseManager.java
+│   ├── HotelManagementApp.java
+│   │
+│   ├── dao/
+│   │   ├── BookingDAO.java
+│   │   ├── GuestDAO.java
+│   │   ├── RoomDAO.java
+│   │   ├── AdminDAO.java
+│   │   └── PaymentDAO.java
+│   │
+│   ├── util/
+│   │   └── DBConnection.java
+│   │
+│   └── service/
+│       └── HotelService.java
+│
+├── database/
+│   └── hotel_db.sql
+│
+├── lib/
+│   └── mysql-connector-j-9.6.0.jar
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── booking-module.png
+│   ├── room-management.png
+│   └── guest-management.png
+│
+├── build/
+│   └── compiled files
+│
+├── dist/
+│   └── executable jar files
+│
+├── build.xml
+├── run.bat
+├── run.sh
+├── README.md
+├── LICENSE
+└── .gitignore
